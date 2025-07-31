@@ -12,7 +12,7 @@ export const App = () => {
 
   const [title, setTitle] = useState('');
   const [userId, setUserId] = useState(0);
-  const [isSubmitted, setIsSubmitted] = useState(true);
+  const [isSubmitted, setIsSubmitted] = useState(false);
   const isCompleted = false;
 
   const createId = () => {
